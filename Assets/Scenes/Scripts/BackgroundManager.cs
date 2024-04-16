@@ -21,7 +21,7 @@ namespace Doodle.Core
         {
             bool prevIsGrounded = isGrounded;
             isGrounded = PlayerHelpers.IsPlayerGrounded(rigidbody, collider);
-            if (prevIsGrounded == false && isGrounded == true)
+            if (!prevIsGrounded && isGrounded)
             {
                 _currentColorIndex++;
                 if (_currentColorIndex >= backgroundColorList.Count) _currentColorIndex = 0;

@@ -280,7 +280,7 @@ MonoBehaviour:
   _stepHeight: 2.6
   _frameBoundsX: {x: -2.2, y: 2.2}
   _stepAmountToSpawn: 4
-  _stepAmountToDelete: 6
+  _stepAmountToDelete: 4
 --- !u!1001 &6006704998970537949
 PrefabInstance:
   m_ObjectHideFlags: 0
