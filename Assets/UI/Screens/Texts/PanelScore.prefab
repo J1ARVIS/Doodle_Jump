@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5852985267164255434}
   - component: {fileID: 7972087187262346875}
   m_Layer: 5
-  m_Name: PanelCoins
+  m_Name: PanelScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -165,9 +165,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1815866905717381491, guid: 1799aefbbd61b814b9ed6a35966219dd, type: 3}
+      propertyPath: m_fontSize
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 8715864922637314733, guid: 1799aefbbd61b814b9ed6a35966219dd, type: 3}
       propertyPath: m_Name
-      value: TextCoinsAmount
+      value: TextScoreAmount
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -187,6 +191,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6971674946039625944}
     m_Modifications:
+    - target: {fileID: 5270873405749837036, guid: 0ab7bdd3ab4311c4d89595981c2361b4, type: 3}
+      propertyPath: m_fontSize
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 5787128230233057091, guid: 0ab7bdd3ab4311c4d89595981c2361b4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -269,7 +277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8848878956540226394, guid: 0ab7bdd3ab4311c4d89595981c2361b4, type: 3}
       propertyPath: m_Name
-      value: TextCoinsText
+      value: TextScoreText
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -620,6 +620,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8325590527631994302, guid: de436616471fe0c459b2c4a9823c5280, type: 3}
+      propertyPath: m_Name
+      value: PanelScore
+      objectReference: {fileID: 0}
     - target: {fileID: 9101438107374552131, guid: de436616471fe0c459b2c4a9823c5280, type: 3}
       propertyPath: m_Name
       value: GamePauseScreen
@@ -729,6 +733,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3701426092013438598, guid: 4f989d94779b6db4ebd0eb1481911ca4, type: 3}
+      propertyPath: m_Name
+      value: PanelScore
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -742,6 +750,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2072930237}
     m_Modifications:
+    - target: {fileID: 1177985702504462295, guid: 2cde12aa00a6084438d84c6b8a594dda, type: 3}
+      propertyPath: m_Name
+      value: PanelScore
+      objectReference: {fileID: 0}
     - target: {fileID: 7507899061508613407, guid: 2cde12aa00a6084438d84c6b8a594dda, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0.7513375
@@ -936,6 +948,10 @@ PrefabInstance:
     - target: {fileID: 5107424794041920922, guid: dd8f886b1d546724e8873bfe305540c3, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 9121222781100964733, guid: dd8f886b1d546724e8873bfe305540c3, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
